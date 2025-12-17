@@ -1,0 +1,38 @@
+name: sik
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.1.0
+  intl: ^0.20.2
+  image_picker: ^1.0.4
+  local_auth: ^2.1.7
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  device_info_plus: ^11.0.0
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.1
+
+  google_maps_flutter: ^2.5.0  
+  geolocator: ^10.1.0          
+  geocoding: ^2.1.1 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
